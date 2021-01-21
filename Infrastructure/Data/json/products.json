@@ -1,0 +1,37 @@
+[
+  {
+    "Name":"Lava Cake",
+    "Description":"Lava cake cu ciocolata cu lapte este reteta perfecta pentru iubitorii de ciocolata.",
+    "Price":20.10,
+    "PictureUrl":"https..."
+    
+  },
+   {
+    "Name":"Fragolina",
+    "Description":"Fragolina este o alegere ideala pentru iubitorii de desert cu fructe",
+    "Price":13.50,
+    "PictureUrl":"https..."
+    
+  },
+   {
+    "Name":"Oreo Cake",
+    "Description":"Oreo Cake este un desert mirobolant, alegerea numarul unu a iubitorilor de oreo",
+    "Price":29.33,
+    "PictureUrl":"https..."
+    
+  },
+  {
+    "Name":" Chocolate Cake",
+    "Description":"Un desert fin si delicios cu care va ve-ti incanta cu siguranta invitatii!!!!",
+    "Price":13,
+    "PictureUrl":"https..."
+    
+  },
+  {
+    "Name":"Forest Noir Cake",
+    "Description":"Tort Padurea Neagra sau tort Foret Noir este un desert minunat cu blat pufos de cacao, visine",
+    "Price":19,
+    "PictureUrl":"https..."
+    
+  }
+]
