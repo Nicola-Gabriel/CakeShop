@@ -30,6 +30,7 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplicationExtensions(_configuration);
+            services.AppIdentityExtensions(_configuration);
             services.AddControllers();
             services.AddTransient<SeedStoreContext>();
             services.AddSwaggerGen(c =>
@@ -49,8 +50,10 @@ namespace API
             }
 
             app.UseHttpsRedirection();
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
            // seed.SeedContext();
