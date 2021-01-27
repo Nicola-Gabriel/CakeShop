@@ -1,0 +1,9 @@
+img {
+    min-width: 150px;
+    max-height: 50px;
+    
+    &:focus {
+        outline: none;
+    }
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+<section class="sample-app-content" [formGroup]="form" (ngSubmit)="login()">
+    <div class="container d-flex justify-content-center">
+        <form [formGroup]="form" (ngSubmit)="onSubmitModelBased()">
+            <p>
+                <label for="inp" class="inp">
+                    <input type="text" id="inp" formControlName="email" placeholder="&nbsp;">
+                    <span class="label">Email</span>
+                    <span class="focus-bg"></span>
+                  </label>
+            </p>
+            <p>
+                <label for="inp" class="inp">
+                    <input type="text" id="inp" formControlName="password" placeholder="&nbsp;">
+                    <span class="label">Password</span>
+                    <span class="focus-bg"></span>
+                  </label>
+            </p>
+           
+           <p>
+            <button class="mt-5" type="submit" (click)="login()" [disabled]="!form.valid">Submit</button>
+           </p>
+            <p id="register">Nu ai cont deja?<a class="ml-1"  (click)="toRegister()">Inregistreaza-te aici.</a></p>
+        </form>
+    </div>
+</section>
